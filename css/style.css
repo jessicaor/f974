@@ -1,0 +1,348 @@
+body{
+   /* background-color:black;*/
+    padding:0;
+    margin:0;
+    /*font-size: 1.6em;*/
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*html{
+    font-size:60.5%;
+}*/
+
+        /*****CONTAINER*****/
+.container-fluid{
+   background-color:white;
+    margin:0 auto;
+    padding:0;
+}
+.container{
+    width: 100%;
+}
+
+    /*HEADER*/
+header{
+    /*background-image:url('../img/bu.jpg');*/
+    height:auto;
+}
+
+    /*CAROUSEL*/
+.carousel-indicators{
+    padding-bottom:5%;
+}
+
+.carousel{
+    position: relative !important;
+    
+}
+
+.carousel-inner{
+    height:700px;
+    
+}
+
+.topleft {
+  position: absolute !important;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: black !important;
+}
+
+.logo{
+    /*width:150px;
+    height:50px;*/
+    margin-right:-170%;
+}
+.cprun{
+    color:#1ACCAB!important;
+}
+
+/*H1*/
+h1{
+    z-index:1000;
+    margin-left:50%;
+    font-weight:500;
+    font-size:50px;
+}
+
+/*NAVBAR*/
+.navbar{
+    width:100%;
+    height:auto;
+    z-index:1000;
+    position:absolute;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+
+
+a{
+   
+   text-decoration:none!important;
+}
+
+nav a:hover{
+    color:#1ACCAB!important;
+}
+
+/*buttons*/
+.btn{
+    background-color:#107F6A;
+    font-size:20px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+border-radius: 30px 30px 30px 30px;
+}
+
+.btn:hover{
+    background-color:white;
+    color:#1ACCAB!important;
+}
+/*citation*/
+.citspace{
+    width:50%;
+    background-color:#1ACCAB;
+}
+    /*CONTAIN*/
+.presentation{
+    margin:0 auto;
+    font-size:20px;
+    font-weight:400;
+    padding-top:5%;
+    padding-bottom:6%;
+}
+
+.scd_pres{
+    padding-top:5%;
+}
+
+.title1{
+    color:#107F6A;
+    font-size:70px;
+    font-weight:500;
+}
+
+.title2{
+    /*color:#107F6A;*/
+    font-size:40px;
+}
+
+.info_1{
+    
+    padding-left:6%;
+    padding-right:6%;
+}
+
+.info_2{
+    font-size:15px;
+    padding-top:6%;
+    background-color:#107F6A;
+    border-radius: 50px 0px 50px 0px;
+
+}
+
+
+.title2_2{
+    color:#107F6A;
+    padding-top:10%;
+    font-size:50px;
+    font-weight:500;
+}
+
+
+/*right_side*/
+.num_imp{
+    font-weight:bold;
+}
+
+.how_ttle{
+    font-size:20px;
+    color:#1ACCAB;
+    font-weight:500;
+}
+
+.how{
+    font-size:20px;
+    font-weight:400;
+}
+
+
+.circle{
+	width:100px;
+	height:100px;
+	border:#107F6A solid 3px;
+	border-radius:50%;
+	line-height:1.5;
+	padding:22px;
+}
+
+.r{
+    width:50px;
+	height:50px;
+}
+
+/*watch_video*/
+iframe{
+    width:100%;
+    height:400px;
+}
+.watch{
+    color:#107F6A;
+    font-size:30px;
+    padding-top:5%;
+}
+
+
+    /*FOOTER*/
+
+
+.site_map{
+    color:#1ACCAB;
+    font-size:20px;
+    padding-top:3%;
+    padding-left:10%;
+}
+
+.map a:hover{
+    color:#1ACCAB!important;
+}
+
+.news{
+    width:50%!important;
+}
+
+/*contact-form*/
+.contact{
+    padding-left:10%;
+}
+form{
+    margin:0 auto!important;
+    font-size:20px;
+}
+
+label{
+    color:#1ACCAB;
+}
+
+
+
+
+/*copyright*/
+
+.copyright{
+    height:50px;
+    background-color:#107F6A;
+}
+
+
+
+
+/* Texte défilant */
+#content {
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	table-layout: fixed;
+	width: 700px;
+}
+.message {
+	display:block;
+	animation:linear marqueelike 20s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+    text-align:left;
+	height:25px;
+}
+
+
+.message:after {
+	content:attr(data-text);
+	position:absolute;
+	white-space:nowrap;
+	padding-left:100px;
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+
+
+ /*modif-tonight*/
+ @media screen and (min-width: 640px) {
+  
+    .min{
+       display:none;
+    }
+
+
+ }
+
+ @media screen and (max-width: 640px) {
+    #carouselIndicators{
+        display:none;
+    }
+
+    header{
+        background-color:#1ACCAB;
+        height:auto;
+    }
+
+    .cprun{
+        color:white!important;
+    }
+
+    .navbar{
+        width:100%;
+        height:100%;
+        z-index :0;
+        position : static;
+        text-align:center;
+    }
+
+    .large{
+        display:none;
+    }
+
+    .min{
+        font-size:50px;
+        font-weight: 500;
+    }
+
+    .logo{
+        /*width:150px;
+        height:50px;*/
+        margin-right:0;
+        float:left;
+
+    }
+    
+.presentation{
+    padding-left: 0;
+}
+.title1{
+    font-size: 2em;
+}
+.citation{
+    display: none;
+ }
+}
+

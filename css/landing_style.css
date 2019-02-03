@@ -1,0 +1,54 @@
+body{
+    /*background-image:url('../img/sad_girl.jpg');
+    font-family: 'Quicksand', sans-serif;*/
+    padding:0;
+}
+
+.container-fluid{
+    background-image:
+    	 /* top, transparent black, faked with gradient */ 
+         linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+          ),
+
+    url('../img/femme_stop.jpg');
+    background-size:cover;
+    /*background-repeat:no-repeat;*/
+    font-family: 'Quicksand', sans-serif;
+    height:740px;
+    padding:0;
+}
+
+/*femmes974*/
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size : 60px;
+}
+
+/*contenu*/
+.jumbotron{
+    padding-top: 10%;
+}
+
+.lead{
+    font-size : 50px;
+}
+
+/*boutons*/
+.buttons{
+    padding-top:5%;
+}
+.btn{
+    background-color:#1accab;
+    -webkit-border-radius: 30px 30px 30px 30px;
+border-radius: 30px 30px 30px 30px;
+}
+
+a:hover{
+    background-color:white;
+    color:#1ACCAB!important;
+}
+
+

@@ -1,0 +1,217 @@
+/*********************** GENERAL*/
+body{
+  font-family: 'Quicksand', sans-serif !important;
+}
+h1, h2, h3, h4, span{
+  color:#1ACCAB!important;
+}
+h2, h3{
+   padding-top: 10% !important;
+   font-size: 50px !important;
+   font-weight: 500 !important;
+}
+a{
+  text-decoration: none;
+  color:#1ACCAB!important
+  
+}
+b{
+  color:#107F6A;
+}
+
+/*Vert : #107F6A
+Cyan : #6DFFE4
+Vert-bleu : #1ACCAB*/
+/********************** VINCENT*/
+.logo{
+  /*width:100%;
+  height:auto;*/
+  font-weight:500;
+  font-size:50px;
+  margin-right:13%;
+}
+.cprun{
+  color:#1ACCAB!important;
+}
+/*H1*/
+h1{
+   z-index:1000;
+   /*margin-left:50%;*/
+   font-weight:bold;
+   font-size:50px;
+}
+/*NAVBAR*/
+.navbar{
+   width:100%;
+   height:auto;
+   z-index:1000;
+   position:absolute;
+   font-size:20px;
+   margin:0;
+   padding:0;
+   padding-left:13%!important;
+}
+a{
+
+  text-decoration:none!important;
+}
+nav a:hover{
+   color:#1ACCAB!important;
+}
+/*buttons*/
+.ok{
+   background-color:#107F6A!important;
+   border:none;
+   -webkit-border-radius: 30px 30px 30px 30px;
+	border-radius: 30px 30px 30px 30px;
+}
+button:hover{
+   background-color:white!important;
+   color:#1ACCAB!important;
+}
+.card-header{
+   background-color: #107F6A;
+}
+
+
+
+
+/********************** HEADER*/
+/*header{
+	width: inherit;
+/*	height: 600px;*/
+	/*background-color: #6DFFE4;*/
+/*	margin: 0;
+}
+.head_banner{
+	background-image: url('../img/femmes-battues.jpg');
+	background-size: cover;
+	background-position: center;
+}*/
+
+#accueil{
+  background-image:url('../img/slide1.jpg');
+  background-position:center;
+  background-size:cover;
+  width:auto;
+  margin:0;
+
+}
+
+/*.headerEvent{
+	padding-left: 15%;
+	padding-top: 15%;
+}
+.label{
+	padding-top: 5%;
+}*/
+
+.container{
+	max-width: 100% !important;
+}
+
+/******************************* MAIN BODY*/
+/************* INFOS*/
+a.active, button{
+  color: white !important;
+  background-color: #1ACCAB!important;
+}
+.whatFor{
+  background-color: #F5F5F5;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.infos{
+	min-height: 700px;
+}
+#myDIV_1 {
+  width: 100%;
+  margin-left: 10%;
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: lightblue;*/
+  margin-top: 20px;
+}
+#myDIV_2 {
+  width: 100%;
+  margin-left: 10%;
+  padding: 50px 0;
+  text-align: center;
+  /*background-color: lightblue;*/
+  margin-top: 20px;
+}
+
+/************* TRAVAUX*/
+.card{
+  border-style: none !important;
+}
+.card img{
+  max-width: 100px;
+  max-height: 100px;
+  color:#1ACCAB;
+}
+.working{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+   /*FOOTER*/
+
+footer{
+  height:auto;
+}
+.site_map{
+    color:#107F6A!important;
+    font-size:20px!important;
+    padding-top:5%;
+    padding-left:10%!important;
+}
+
+.site_map>ul>li>a{
+  color:#107F6A!important;
+}
+.map a:hover{
+  color:#1ACCAB!important;
+}
+
+/*newsletter*/
+.news{
+  width:50%!important;
+}
+
+h6{
+  font-size:28px!important;
+  color:#1ACCAB!important;
+}
+
+
+ /*contact-form*/
+
+.watch{
+  color:#107F6A!important;
+  font-size:30px!important;
+  padding-top:5%;
+}
+.contact{
+  padding-left:10%!important;
+}
+form{
+  margin:0 auto!important;
+  font-size:20px!important;
+}
+label{
+  color:#1ACCAB;
+}
+
+
+
+/*copyright*/
+.copyright{
+    height:50px;
+    background-color:#107F6A;
+}
+.BGcolorWhiteGrey{
+  min-height: 500px;
+  background-color: #F5F5F5;
+}

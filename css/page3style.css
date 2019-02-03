@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+    /*HEADER*/
+#accueil{
+    background-image:url('../img/slide2.jpg');
+    background-size:cover;
+    width:auto;
+    margin:0;
+
+}
+
+.logo{
+    /*width:100%;
+    height:auto;*/
+    font-weight:500;
+    font-size:50px;
+}
+.cprun{
+    color:#1ACCAB!important;
+}
+   
+    /*NAVBAR*/
+.navbar{
+    width:100%;
+    height:auto;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+    
+    
+a{
+       
+    text-decoration:none!important;
+}
+    
+nav a:hover{
+    color:#1ACCAB!important;
+}
+    
+    /*buttons*/
+.ok{
+    background-color:#107F6A;
+    font-size:20px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+    
+.ok.btn:hover{
+    background-color:white;
+    color:#1ACCAB!important;
+}
+
+
+.card-header{
+    background-color: #107F6A;
+    font-size: 50px;
+    
+}
+
+
+h5{
+color: #1ACCAB;
+}
+
+
+/*--partie footer--*/
+footer{
+    height:auto;
+}
+.site_map{
+    color:#1ACCAB;
+    font-size:20px;
+    padding-top:3%;
+    padding-left:10%;
+ }
+ .map a:hover{
+    color:#1ACCAB!important;
+ }
+
+ .news{
+    width:50%!important;
+ }
+ /*contact-form*/
+
+ .watch{
+    color:#107F6A;
+    font-size:30px;
+    padding-top:5%;
+}
+ .contact{
+    padding-left:10%;
+ }
+ form{
+    margin:0 auto!important;
+    font-size:20px;
+ }
+ label{
+    color:#1ACCAB
+ ;
+ }
+
+
+ /*copyright*/
+ .copyright{
+    height:50px;
+    background-color:#107F6A
+ ;
+ }
