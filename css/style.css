@@ -28,12 +28,11 @@ header{
 
     /*CAROUSEL*/
 .carousel-indicators{
-    padding-bottom:5%;
+    /*padding-bottom:5%;*/
 }
 
 .carousel{
-    position: relative !important;
-    
+    position: relative !important;   
 }
 
 .carousel-inner{
@@ -111,6 +110,7 @@ border-radius: 30px 30px 30px 30px;
     width:50%;
     background-color:#1ACCAB;
 }
+
          /****CONTAIN****/
 .presentation{
     margin:0 auto;
@@ -184,7 +184,7 @@ border-radius: 30px 30px 30px 30px;
 	padding:22px;
 }
 
-.r{
+.picto{
     width:50px;
 	height:50px;
 }
