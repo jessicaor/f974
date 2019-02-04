@@ -12,11 +12,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">    
     <title>Femmes974</title>
 </head>
 <body>
     <div class="container_fluid">
+    <!--HEADER-->
     <header  id="accueil">
         <div class="container">
         <nav  class="col-lg-12">
@@ -85,7 +86,7 @@
         <div class="info_1 col-sm col-lg-8 text-center">
             <article>
                 <div class="container">
-                <h2 class="title1 pb-5"> Une ASSOCIATION qui fait quoi ?</h2>
+                <h2 class="title1 pb-5 bounceIn"> Une ASSOCIATION qui fait quoi ?</h2>
                 </div>
                 <div class="pres pt-5"> 
                     <p>Femmes 974 a pour but l’étude, l’information, la défense des droits et des intérêts matériels et moraux tant collectifs qu’individuels des femmes de La Réunion et plus généralement la défense et la promotion des droits des femmes.</p>
@@ -109,7 +110,7 @@
 
                 <br/>
 
-                <p><span class="num_imp">VOUS ETES VICTIME DE MALTRAITANCE ?</span> Faites vous aider par des professionnels des affaires familiales sur le département 974 : <br/><a class="text-white" href="#">Téléchargez la plaquette ORVIFF (numéros uitles).</a></p>
+                <p><span class="num_imp">VOUS ETES VICTIME DE MALTRAITANCE ?</span> Faites vous aider par des professionnels des affaires familiales sur le département 974 : <br/><a class="text-white" href="http://www.femmes974.info/VFF-octobre2018.pdf">Téléchargez la plaquette ORVIFF (numéros uitles).</a></p>
 
                 <br/>
                 <p><span class="num_imp">L'ASSOCIATION AFECT </span>est notre partenaire direct pour la lutte contre les violences faites aux femmes.<br/> Appelez Mme Rolande CAZAL présidente au 0692 617 659.</p>
@@ -119,14 +120,14 @@
                 <p><span class="num_imp">LE SERVICE RÉGIONAL DES DROITS DES FEMMES et DE L'ÉGALITÉ DE LA RÉUNION : </span> <br/>0262 40 78 39 - Saint Denis préfecture.</p>
 
                 <br/>
-                <p><span class="num_imp">COMMUNIQUEZ SANS STÉRÉOTYPES SEXISTES : </span><a class="text-white" href="#">Téléchargez "les bonnes pratiques".</a></p>                                            
+                <p><span class="num_imp">COMMUNIQUEZ SANS STÉRÉOTYPES SEXISTES : </span><a class="text-white" href="http://www.femmes974.info/hcefh__com_sans_stereo-2015.pdf">Téléchargez "les bonnes pratiques".</a></p>                                            
             </article>
         </div>
     </div>
 </div>
 <div class="bg-light">
     <div class="container bg-light">
-        <p class="title2_2 text-center">COMMENT ?</p>
+        <p class="title2_2 bounceIn text-center">COMMENT ?</p>
         <div class="how row">
             <div class="col-lg-4">
                 <div class="circle m-auto"><img src="img/feminism.png" class="d-block r" alt="picto_livre"></div>
@@ -175,16 +176,16 @@
                             <form class="pb-5">
                                 <h3 class="pb-5 watch">NOUS CONTACTER</h3>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
+                                    <label for="InputEmail1">Email</label>
+                                    <input type="email" class="form-control form-control-lg" name ="mail" id="InputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
                                     <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                    <label for="FormControlTextarea1">Message</label>
+                                    <textarea class="form-control form-control-lg" id="FormControlTextarea1" rows="5"></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="ok btn text-white px-4 py-2">Envoyer</button>
+                                    <button id ="bouton_envoi" type="submit" name="bouton" onclick="validerMail(this.form)" value ="valider" class="ok btn text-white px-4 py-2">Envoyer</button>
                                 </div>
                             </form>            
                         </div>
@@ -215,11 +216,12 @@
 
 
                 <!-- Optional JavaScript -->
+                <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+                <script type="text/javascript" src="js/main.js"></script>
 
             </body>
             </html>

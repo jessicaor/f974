@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 
-    /*HEADER*/
+    /****HEADER****/
 header{
     /*background-image:url('../img/bu.jpg');*/
     height:auto;
@@ -41,19 +41,21 @@ header{
     
 }
 
-.topleft {
+/***FEMMES974***/
+/*.topleft {
   position: absolute !important;
   top: 8px;
   left: 16px;
   font-size: 18px;
   color: black !important;
-}
+}*/
 
 .logo{
     /*width:150px;
     height:50px;*/
     margin-right:-170%;
 }
+
 .cprun{
     color:#1ACCAB!important;
 }
@@ -99,12 +101,13 @@ border-radius: 30px 30px 30px 30px;
     background-color:white;
     color:#1ACCAB!important;
 }
+
 /*citation*/
 .citspace{
     width:50%;
     background-color:#1ACCAB;
 }
-    /*CONTAIN*/
+         /****CONTAIN****/
 .presentation{
     margin:0 auto;
     font-size:20px;
@@ -194,7 +197,7 @@ iframe{
 }
 
 
-    /*FOOTER*/
+         /****FOOTER****/
 
 
 .site_map{
