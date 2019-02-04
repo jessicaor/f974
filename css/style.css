@@ -53,11 +53,15 @@ header{
 .logo{
     /*width:150px;
     height:50px;*/
-    margin-right:-170%;
+    margin-right:-110%;
 }
 
 .cprun{
     color:#1ACCAB!important;
+}
+
+.slogan{
+    font-size:2em;
 }
 
 /*H1*/
