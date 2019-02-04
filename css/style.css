@@ -25,11 +25,15 @@ header{
     /*background-image:url('../img/bu.jpg');*/
     height:auto;
 }
+.arian{
+    font-size: 1.5rem;
+    color:#1ACCAB!important;
+ }
 
     /*CAROUSEL*/
-.carousel-indicators{
-    /*padding-bottom:5%;*/
-}
+/*.carousel-indicators{
+    padding-bottom:5%;
+}*/
 
 .carousel{
     position: relative !important;   
@@ -297,9 +301,13 @@ label{
 .logo{
     margin-right:-100%!important;
 }
- }
 
- /*modif-tonight*/
+.slogan{
+    display:none;
+}
+}
+
+
  /***980px***/
  @media screen and (max-width: 980px) {
 
